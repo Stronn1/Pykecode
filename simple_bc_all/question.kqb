@@ -1,0 +1,97 @@
+# question.kqb
+
+asas($ans)
+    Quantos pares de asas o inseto apresenta? 
+    Quais suas caracteristicas?
+    ---
+    $ans = select_1
+        1: dois pares de asas escamosas
+        2: um par de asas membranosas
+        3: um par de asas rigidas e um par de asas membranosas
+        4: um par de asas membranosas
+
+boca($b)
+    Olhando a cabeca do inseto, ele apresenta aparelho bucal em formato de agulha?
+    ---
+    $b = select_1
+        1: sim
+        2: nao
+
+cor_inseto($c)
+    Qual a cor do inseto?
+    ---
+    $c = select_1
+        1: azul
+        2: preto
+        3: marrom claro/dourado
+        4: verde
+
+tufo($tf)
+    Apresenta um tufo de pelo no segundo par de pernas?
+    ---
+    $tf = select_1
+        1: sim
+        2: nao
+
+coloracao($cl)
+    A coloracao do mosquito eh mais azulada ou preta?
+    ---
+    $cl = select_1
+        1: azulada
+        2: preta
+
+pintas($p)
+    Tem pintinhas ou manchas brancas ou prateadas nas pernas?
+    ---
+    $p = select_1
+        1: sim
+        2: nao
+
+cor_azulada($ca)
+    tem coloracao azulada?
+    ---
+    $ca = select_1
+        1: sim
+        2: nao
+
+cor_b($cb)
+    Como eh a coloracao da borda das asas do mosquito?
+    ---
+    $cb = select_1
+        1: bicolor
+        2: uma so cor
+
+mancha($m)
+    A asa possui uma mancha mais escura na parte central superior da borda?
+    ---
+    $m = select_1
+        1: sim
+        2: nao
+
+desenho($d)
+    O inseto apresenta algum desenho no dorso(nas costas)?
+    ---
+    $d = select_1
+        1: sim
+        2: nao
+
+tamanho($tm)
+    Qual o tamanho do inseto?
+    ---
+    $tm = select_1
+        1: grande aprox 2cm
+        2: pequeno menor que 1 cm
+
+espinho($e)
+    Tem estrutura parecida com espinhos nas pernas?
+    ---
+    $e = select_1
+        1: sim
+        2: nao
+
+cerdas($cd)
+    Eh um mosquito pequeno (aprox 2mm) e apresenta o corpo e as asas cobertos por cerdas que parecem pelos?
+    ---
+    $cd = select_1
+        1: sim
+        2: nao

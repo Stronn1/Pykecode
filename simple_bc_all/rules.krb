@@ -1,0 +1,337 @@
+# rules.krb
+
+lepidoptera
+    use especie(Lepidoptera)
+    when
+        question.asas($ans)
+        check $ans in (1,)
+
+Hymenoptera
+    use especie(Hymenoptera)
+    when
+        question.asas($ans)
+        check $ans in (2,)
+
+Coleoptera
+    use especie(Coleoptera)
+    when
+        question.asas($ans)
+        check $ans in (3,)
+
+Sabethes
+    use especie(Sabethes)
+    when
+        question.asas($ans)
+        check $ans in (4,)
+        question.boca($b)
+        check $b in (1,)
+        question.cor_inseto($c)
+        check $c in (1,)
+        question.tufo($tf)
+        check $tf in (1,)
+
+Sabethesa
+    use especie(Sabethes)
+    when
+        question.asas($ans)
+        check $ans in (4,)
+        question.boca($b)
+        check $b in (1,)
+        question.cor_inseto($c)
+        check $c in (1,)
+        question.tufo($tf)
+        check $tf in (2,)
+        question.coloracao($cl)
+        check $cl in (1,)
+
+Haemagogus
+    use especie(Haemagogus)
+    when
+        question.asas($ans)
+        check $ans in (4,)
+        question.boca($b)
+        check $b in (1,)
+        question.cor_inseto($c)
+        check $c in (1,)
+        question.tufo($tf)
+        check $tf in (2,)
+        question.coloracao($cl)
+        check $cl in (2,)
+
+Haemagogusa
+    use especie(Haemagogus)
+    when
+        question.asas($ans)
+        check $ans in (4,)
+        question.boca($b)
+        check $b in (1,)
+        question.cor_inseto($c)
+        check $c in (2,)
+        question.pintas($p)
+        check $p in (2,)
+        question.cor_azulada($ca)
+        check $ca in (1,)
+
+Erro
+    use especie(Erro)
+    when
+        question.asas($ans)
+        check $ans in (4,)
+        question.boca($b)
+        check $b in (1,)
+        question.cor_inseto($c)
+        check $c in (2,)
+        question.pintas($p)
+        check $p in (2,)
+        question.cor_azulada($ca)
+        check $ca in (2,)
+        question.cor_b($cb)
+        check $cb in (1,)
+        question.mancha($m)
+        check $m in (1,)
+
+Anopheles
+    use especie(Anopheles)
+    when
+        question.asas($ans)
+        check $ans in (4,)
+        question.boca($b)
+        check $b in (1,)
+        question.cor_inseto($c)
+        check $c in (2,)
+        question.pintas($p)
+        check $p in (2,)
+        question.cor_azulada($ca)
+        check $ca in (2,)
+        question.cor_b($cb)
+        check $cb in (1,)
+        question.mancha($m)
+        check $m in (2,)
+
+Aedes
+    use especie(Aedes)
+    when
+        question.asas($ans)
+        check $ans in (4,)
+        question.boca($b)
+        check $b in (1,)
+        question.cor_inseto($c)
+        check $c in (2,)
+        question.pintas($p)
+        check $p in (2,)
+        question.cor_azulada($ca)
+        check $ca in (2,)
+        question.cor_b($cb)
+        check $cb in (2,)
+        question.desenho($d)
+        check $d in (1,)
+
+Aviso
+    use especie(Aviso)
+    when
+        question.asas($ans)
+        check $ans in (4,)
+        question.boca($b)
+        check $b in (1,)
+        question.cor_inseto($c)
+        check $c in (2,)
+        question.pintas($p)
+        check $p in (2,)
+        question.cor_azulada($ca)
+        check $ca in (2,)
+        question.cor_b($cb)
+        check $cb in (2,)
+        question.desenho($d)
+        check $d in (2,)
+
+Erroa
+    use especie(Erro)
+    when
+        question.asas($ans)
+        check $ans in (4,)
+        question.boca($b)
+        check $b in (1,)
+        question.cor_inseto($c)
+        check $c in (2,)
+        question.pintas($p)
+        check $p in (1,)
+        question.cor_b($cb)
+        check $cb in (1,)
+        question.mancha($m)
+        check $m in (1,)
+
+Anophelesa
+    use especie(Anopheles)
+    when
+        question.asas($ans)
+        check $ans in (4,)
+        question.boca($b)
+        check $b in (1,)
+        question.cor_inseto($c)
+        check $c in (2,)
+        question.pintas($p)
+        check $p in (1,)
+        question.cor_b($cb)
+        check $cb in (1,)
+        question.mancha($m)
+        check $m in (2,)
+
+Aedesa
+    use especie(Aedes)
+    when
+        question.asas($ans)
+        check $ans in (4,)
+        question.boca($b)
+        check $b in (1,)
+        question.cor_inseto($c)
+        check $c in (2,)
+        question.pintas($p)
+        check $p in (1,)
+        question.cor_b($cb)
+        check $cb in (2,)
+        question.desenho($d)
+        check $d in (1,)
+
+Avisoa
+    use especie(Aviso)
+    when
+        question.asas($ans)
+        check $ans in (4,)
+        question.boca($b)
+        check $b in (1,)
+        question.cor_inseto($c)
+        check $c in (2,)
+        question.pintas($p)
+        check $p in (1,)
+        question.cor_b($cb)
+        check $cb in (2,)
+        question.desenho($d)
+        check $d in (2,)
+
+Aedesb
+    use especie(Aedes)
+    when
+        question.asas($ans)
+        check $ans in (4,)
+        question.boca($b)
+        check $b in (1,)
+        question.cor_inseto($c)
+        check $c in (3,)
+        question.pintas($p)
+        check $p in (1,)
+
+Culex
+    use especie(Culex)
+    when
+        question.asas($ans)
+        check $ans in (4,)
+        question.boca($b)
+        check $b in (1,)
+        question.cor_inseto($c)
+        check $c in (3,)
+        question.pintas($p)
+        check $p in (2,)
+
+Tipulidae
+    use especie(Tipulidae)
+    when
+        question.asas($ans)
+        check $ans in (4,)
+        question.boca($b)
+        check $b in (2,)
+        question.cor_inseto($c)
+        check $c in (4,)
+        question.tamanho($tm)
+        check $tm in (1,)
+
+Chironomidae
+    use especie(Chironomidae)
+    when
+        question.asas($ans)
+        check $ans in (4,)
+        question.boca($b)
+        check $b in (2,)
+        question.cor_inseto($c)
+        check $c in (4,)
+        question.tamanho($tm)
+        check $tm in (2,)
+
+Culicoides
+    use especie(Culicoides)
+    when
+        question.asas($ans)
+        check $ans in (4,)
+        question.boca($b)
+        check $b in (2,)
+        question.cor_inseto($c)
+        check $c in (2,)
+        question.cor_b($cb)
+        check $cb in (1,)
+        question.mancha($m)
+        check $m in (1,)
+
+Errob
+    use especie(Erro)
+    when
+        question.asas($ans)
+        check $ans in (4,)
+        question.boca($b)
+        check $b in (2,)
+        question.cor_inseto($c)
+        check $c in (2,)
+        question.cor_b($cb)
+        check $cb in (1,)
+        question.mancha($m)
+        check $m in (2,)
+
+Simulium
+    use especie(Simulium)
+    when
+        question.asas($ans)
+        check $ans in (4,)
+        question.boca($b)
+        check $b in (2,)
+        question.cor_inseto($c)
+        check $c in (2,)
+        question.cor_b($cb)
+        check $cb in (2,)
+
+Culicidae
+    use especie(Culicidae)
+    when
+        question.asas($ans)
+        check $ans in (4,)
+        question.boca($b)
+        check $b in (2,)
+        question.cor_inseto($c)
+        check $c in (3,)
+        question.espinho($e)
+        check $e in (1,)
+
+Lutzomyia
+    use especie(Lutzomyia)
+    when
+        question.asas($ans)
+        check $ans in (4,)
+        question.boca($b)
+        check $b in (2,)
+        question.cor_inseto($c)
+        check $c in (3,)
+        question.espinho($e)
+        check $e in (2,)
+        question.cerdas($cd)
+        check $cd in (1,)
+
+Culicidadea
+    use especie(Culicidae)
+    when
+        question.asas($ans)
+        check $ans in (4,)
+        question.boca($b)
+        check $b in (2,)
+        question.cor_inseto($c)
+        check $c in (3,)
+        question.espinho($e)
+        check $e in (2,)
+        question.cerdas($cd)
+        check $cd in (2,)
